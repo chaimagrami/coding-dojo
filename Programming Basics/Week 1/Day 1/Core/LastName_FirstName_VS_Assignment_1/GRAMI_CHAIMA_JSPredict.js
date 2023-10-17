@@ -19,4 +19,3 @@ function add(num1, num2){
 //num2 is: 20
 //30
     
-myBirthYearFunc()
