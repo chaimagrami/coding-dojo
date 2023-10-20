@@ -1,0 +1,148 @@
+snippet 1 : 
+
+
+| Actions       | Résultats    |
+|---------------|--------------|
+| Appel hello() | Affiche hello|
+|---------------|--------------|
+| Affiche Dojo  |              |
+
+
+
+
+snippet 2:
+
+
+
+| Actions            | Résultats         |
+|                    |
+| Appel hello()      | Affiche hello     |
+| Appel hello()      | Affiche hello     |
+| Afficher result is | Affiche result is |
+
+snippet 3:
+
+
+| Actions           | Résultats         |
+|                   |                   |
+| Appel numPlus(3)  | Affiche num is 3  |
+| Appel numPlus(5)  | Affiche num is 5  |
+| Affiche result is | Affiche result is |
+
+
+snippet 4:
+
+
+| Actions                        | Résultats            |
+|                                |                      |
+| Déclare et initialise num      |                      |
+| Affiche 15                     |                      |
+| Déclare logAndReturn ()        |                      |
+|                                |                      |
+| Appel logAndReturn(10)         | Affiche num2 (10)    |
+|                                | Retourne 10          |
+| Assignation à result           |                      |
+| Affiche result                 |                      |
+| Affiche num                    |                      |
+
+
+snippet 5:
+
+| Actions                | Résultats           |
+|                        |                     |
+| Appel timesTwo(3)      | Affiche num is 3    |
+| Appel timesTwo(10)     | Affiche num is 10   |
+| Affiche result is      | Affiche result is   |
+| Appel timesTwo(1)      | Affiche num is 1    |
+| Appel timesTwo(2)      | Affiche num is 2    |
+| Appel timesTwo(2)      | Affiche num is 2    |
+| Appel timesTwo(3)      | Affiche num is 3    |
+| Appel timesTwo(2,1)    | Affiche num is 2    |
+| Appel timesTwo(2,3)    | Affiche num is 2    |
+| Affiche result is      | Affiche result is   |
+
+snippet 6 :
+
+| Actions                        | Résultats            |
+|                                |                      |
+| Définition de la fonction      |                      |
+|                                |                      |
+| Appel timesTwoAgain(3)         | Affiche num is 3     |
+|                                | Retourne 6           |
+| Appel timesTwoAgain(5)         | Affiche num is 5     |
+|                                | Retourne 10          |
+| Calcul de result               |                      |
+|                                |                      |
+| Affiche result                 |                      |
+
+snippet 7 :
+
+
+| Actions            | Résultats        |
+|                    |                  |
+| Appel sumNums(2,3) | Affiche 5        |
+| Appel sumNums(3,5) | Affiche 8        |
+
+snippet 8 :
+
+| Actions                        | Résultats            |
+|                                |                      |
+| Définition de la fonction      |                      |
+|                                |                      |
+| Appel printSumNums(2,3)        | Affiche 2            |
+|                                | Retourne 5           |
+| Appel printSumNums(3,5)        | Affiche 3            |
+|                                | Retourne 8           |
+
+snippet 9 :
+
+
+| Actions                        | Résultats            |
+|                                |                      |
+| Définition de la fonction      |                      |
+|                                |                      |
+| Déclaration de result          |                      |
+|                                |                      |
+| Appel sumNums(2,3)             | Affiche sum is 5     |
+|                                | Retourne 5           |
+| Appel sumNums(3,5)             | Affiche sum is 8     |
+|                                | Retourne 8           |
+| Calcul de result               |                      |
+|                                |                      |
+| Affiche result                 | Affiche result is 13 |
+
+
+snippet 10 :
+
+
+| Actions                                 | Résultats             |
+|                                         |                       |
+| Définition de la fonction               |                       |
+|                                         |                       |
+| Déclaration de result                   |                       |
+|                                         |                       |
+| Appel sumNums(2,3)                      | Affiche sum is 5      |
+|                                         | Retourne 5             |
+| Appel sumNums(2,1)                      | Affiche sum is 3      |
+|                                         | Retourne 3             |
+| Appel sumNums(3, sumNums(2,1))          | Affiche sum is 6      |
+|                                         | Retourne 6             |
+| Appel sumNums(2,1)                      | Affiche sum is 3      |
+|                                         | Retourne 3             |
+| Appel sumNums(2,3)                      | Affiche sum is 5      |
+|                                         | Retourne 5             |
+| Appel sumNums(sumNums(2,1), sumNums(2,3))| Affiche sum is 8      |
+|                                         | Retourne 8             |
+| Calcul de result                        |                       |
+|                                         |                       |
+| Affiche result                          | Affiche result is 22  |
+
+
+
+
+
+
+
+
+
+
