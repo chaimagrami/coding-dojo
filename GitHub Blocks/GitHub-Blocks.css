@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: aliceblue;
+}
+
+.container img {
+    width: 90px;
+    height: 90px;
+}
+
+.title {
+    text-align: center;
+}
+
+.ligne1 {
+    background-color: #28d4e4;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.ligne2 {
+    background-color: #e887f3;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ligne3 {
+    background-color: white;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
