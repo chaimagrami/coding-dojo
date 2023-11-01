@@ -1,0 +1,140 @@
+/* body{
+    display: flex;
+    justify-content: center;
+} */
+
+.card{
+    height: 420px;
+    width: 500px;
+    border:3px black solid;
+}
+.top{
+    height: 100px;
+    width: 500px;
+    background-color: aqua;
+}
+#profile{
+    height: 100px;
+    width: 100px;
+    margin-top: 35px;
+    margin-left: 30px;
+    border: 3px gray solid;
+    border-radius: 50%;
+}
+.bot{
+    height: 400px;
+    width: 800px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.local{
+    display: flex;
+}
+#map{
+    margin-top: 20px;
+    margin-right: 20px;
+    height: 25px;
+    width: 15px;
+}
+#gear{
+    height: 20px;
+    width: 20px;
+}
+
+.nav{
+    background-color:black;
+    display: flex;
+    width: 100%;
+    justify-content:space-around;
+    padding: 10px;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type:none;
+    width: 70%;
+    align-items: center;
+}
+
+a{
+    color: white;
+    list-style-type: none;
+}
+
+button{
+    height: 30px;
+    width:60px;
+    background-color: rgb(18, 137, 141);
+}
+    
+.active{
+    font-weight:bolder ;
+}
+
+.container{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.left-col{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    width: 60%;
+}
+
+.top-container{
+    background-color: rgb(57, 52, 52);
+    height: 100px;
+
+    display: flex; 
+      color: white;
+      align-items: center;
+      justify-content: center;
+}
+
+span{
+    background-color: grey;
+    border-radius: 50%;
+    width: 40px;
+}
+
+.con-container{
+    border: 3px solid black;
+    width: 400px;
+    height: 350px;
+
+}
+
+img{
+    width: 30px;
+}
+
+.bot-container h3{
+    /* margin: 20px 10px 10px 100px;*/
+    display: flex;
+    align-items: center; 
+    gap: 10px;
+}
+.right-col{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.bot-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bot-container a{
+    color: blue;
+    font-size:20px ;
+}
+
