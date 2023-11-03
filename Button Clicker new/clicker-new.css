@@ -1,0 +1,84 @@
+body {
+    width: 700px;
+        margin: auto;
+}
+/* nav bar styling /
+.navbar {
+    background-color: rgb(177, 173, 173);
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    align-items: center ;
+}
+.navbar > input {
+    width: 350px;
+    padding: 10px 10px;
+    height: 2px;
+    align-items: center ;
+    border: solid black;
+}
+.login {
+    justify-content: end;
+    background-color: blue;
+    border: solid black;
+    box-shadow: 0px 5px 10px 0px;
+}
+/ main styling /
+main{
+    display: flex;
+    gap:10px;
+    margin-top: 10px;
+}
+
+.leftside {
+    flex:2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+
+}
+.ninja1{
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+    border: 3px solid black;
+    padding: 20px;
+}
+.right{
+    flex:3;
+}
+/ left side of ninja box /
+.left{
+    flex:1; 
+    margin:0;
+}
+.left button {
+    background-color: #FFD966 ;
+    border: solid black;
+    box-shadow: 2px 3px;
+}
+
+/ rightside starts */
+
+.rightside{
+    flex:1;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+}
+.definition {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid black;
+    padding:20px ;
+}
+.definition button {
+    background-color: rgb(83, 182, 83);
+    border: solid black;
+    box-shadow: 2px 3px;
+    padding-bottom: 3px;
+;
+}

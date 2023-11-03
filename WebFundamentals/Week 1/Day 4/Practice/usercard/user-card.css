@@ -1,0 +1,70 @@
+{
+    margin: 0;
+    padding: 0;
+  }
+  body {
+      font-family: 'eoboto ' , sans-serif;
+      background-color: white;
+  }
+  .navbar {
+      background-color: gray;
+      width: 1000px;
+      height: 80px;
+      display: flex;
+      align-items: center;
+      justify-content:space-between;
+      margin: 0 auto;
+      padding: 0px 20px;
+  }
+  .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      list-style-type: none;
+  }
+  .container {
+      width: 1000px;
+      margin: 0 auto;
+      display: flex;
+  }
+  .left {
+      flex: 2;
+      margin: 10px;
+      padding: 10px;
+  }
+  .right {
+      flex: 1;
+      margin: 10px ;
+      padding: 10px;
+  }
+  .user {
+      width: 100%;
+      border: 2px solid gray;
+      border-radius: 10px;
+      margin-bottom: 20px;
+  
+  }
+  .user-header {
+      background-color: rgb(23, 162, 184);
+      height: 125px;
+      margin-bottom: 70px;
+  
+  }
+  .user-header img {
+      border-radius: 50%;
+      height: 180px;
+      margin-top: 20px;
+      margin-left: 20px;
+      border: 2px solid gray;
+  }
+  .user-body {
+      padding: 20px;
+  }
+   .icons {
+      height: 20px;
+  
+  
+      }
+      .m20{
+          margin: 10px;
+      }
