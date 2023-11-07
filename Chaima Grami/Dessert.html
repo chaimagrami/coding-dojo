@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=*, initial-scale=1.0">
+    <title>Dessert</title>
+    <link rel="stylesheet" href="Dessert.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <h1><span class="white">Just</span>Dessert</h1>
+        <div class="btn-up">
+            <button class="Join" id="btnForRemove" onclick="Remove()">Join</button>
+            <button class="Login">Login</button>
+        </div>
+
+    </div>
+    <div class="topnav">
+        <div>
+            <input class="myInput" type="text" id="MyInput" placeholder="SEARCH">
+            <button onclick="ShowAlert()" class="GO">GO</button>
+        </div>
+        <div class="topnav-imgs">
+            <img class="img" src="./imgs/cake.png" alt="cake.png">
+            <img class="img" src="./imgs/ice-cream.png" alt="ice-cream.png">
+            <img class="img" src="./imgs/cookie.png" alt="cookie.png">
+            <img class="img" src="./imgs/pie.png" alt="pie.png">
+        </div>
+    </div>
+    <div class="container">
+
+        <div class="left">
+            <h2 class="blue-text">recipe of the day</h2>
+            <img class="img-1" src="./imgs/orange-tart.jpg" alt="orange-tart.png">
+            <div class="sub-title">
+                <div>
+                    <p>Orange Tea Jelly Tart</p>
+                    <p>by:<a href="#">yuripiano</a></p>
+                </div>
+                <div>
+                    <img class="img-4" onclick="img1()" src="./imgs/heart.png" alt="heart.png">
+                    <span id="num1">68</span>
+                </div>
+            </div>
+
+
+            <p><a href="#">See Full Recipe</a></p>
+        </div>
+
+        <div class="right">
+            <p class="line">Recommended for you:</p>
+            <img class="img-2" src="./imgs/macarons.jpg" alt="macarons.png">
+            <div class="flex-box">
+                <p>Macarons</p>
+                <div>
+                    <img class="img-5" onclick="img2()" src="./imgs/heart.png" alt="heart.png">
+                    <span id="num2">212</span>
+                </div>
+            </div>
+            <p class="names">By:<a href="#">EmilieW</a></p>
+
+            <img class="img-3" src="./imgs/creme-brulee.jpg" alt="creme-brulee.png">
+            <div class="flex-box">
+                <p>Crème Brulée</p>
+                <div>
+                    <img class="img-6" onclick="img3()" src="./imgs/heart.png" alt="heart.png">
+                    <span id="num3">33</span>
+                </div>
+            </div>
+            <p class="names">by:<a href="#">MarisaG</a></p>
+
+        </div>
+    </div>
+
+<script src="Dessert.js"></script>
+</body>
+
+</html>
