@@ -1,12 +1,23 @@
 body{
-    margin: 0;
+    
+}
+.background_image{
+  margin: 0;
+    
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    -webkit-filter: blur(5px);
+    filter: blur(3px);
 }
 .about-text p {
   font-size: 18px;
 }
 .about-text p mark {
   font-weight: 600;
-  color: #3a3973;
 }
 .about-text .btn-bar {
   padding-top: 8px;
@@ -30,29 +41,9 @@ body{
   margin: 0;
   position: relative;
 }
-.about-list label:after {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 11px;
-  width: 1px;
-  height: 12px;
-  background: #3a3973;
-  transform: rotate(15deg);
-  margin: auto;
-  opacity: 0.5;
-}
 .about-list p {
   margin: 0;
   font-size: 15px;
-}
-
-
-@media (max-width: 991px) {
-  .about-img {
-    margin-top: 30px;
-  }
 }
 
 .counter-section {
@@ -64,34 +55,27 @@ body{
 }
 .counter-section .count {
   font-weight: 700;
-  color: #ffffff;
+  color: #744c53;
   margin: 0 0 10px;
 }
 .counter-section p {
   font-weight: 500;
   margin: 0;
-  color: #fe4f6c;
+  color: #e0cbce;
 }
 .theme-color {
-    color: #fe4f6c;
+    color:#744c53;
 }
 
 .section {
     padding: 100px 0;
     position: relative;
 }
-.gray-bg {
-    background-color: #ebf4fa;
-}
-.px-btn.theme {
-    background: #fe4f6c;
-    color: #ffffff;
-    border: 2px solid #fe4f6c;
-}
+
 .px-btn {
     padding: 0 20px;
     line-height: 42px;
-    border: 2px solid transparent;
+    border: 2px;
     position: relative;
     display: inline-block;
     background: none;
@@ -105,11 +89,6 @@ body{
     font-weight: 500;
 }
 
-.px-btn.theme-t {
-    background: transparent;
-    border: 2px solid #fe4f6c;
-    color: #fe4f6c;
-}
 .my_img {
     width: 350px;
 }
@@ -119,4 +98,24 @@ body{
     margin-bottom: 50px;
     font-family: Aamonoline;
     font-size: 5em;
+    color: white;
+}
+.text-blanc {
+  color: white;
+}
+
+.next-btn {
+  float: right;
+  padding: 10px;
+  margin-right: 10px;
+  width: 150px;
+  border-radius: 20px;
+  margin-top: 680px;
+
+}
+
+.next-btn:hover {
+  background-color:rgb(49, 49, 252);
+  color: white;
+  border: none;
 }
