@@ -31,6 +31,8 @@ output : 10
 #5
 def number_of_great_lakes():
     print(5)
+    
+    
 x = number_of_great_lakes()
 print(x)
 output : x
@@ -46,6 +48,7 @@ output : 8
 #7
 def concatenate(b,c):
     return str(b)+str(c)
+
 print(concatenate(2,5))
 output : 7
 
@@ -73,7 +76,7 @@ def number_of_days_in_a_week_silicon_or_triangle_sides(b,c):
 print(number_of_days_in_a_week_silicon_or_triangle_sides(2,3))
 print(number_of_days_in_a_week_silicon_or_triangle_sides(5,3))
 print(number_of_days_in_a_week_silicon_or_triangle_sides(2,3) + number_of_days_in_a_week_silicon_or_triangle_sides(5,3))
-output : [7, 14, 7]
+output : 7, 14, 21
 
 
 #10
@@ -134,11 +137,13 @@ output : [1, 2, 3]
 
 
 #15
+
 def foo():
     print(1)
     x = bar()
     print(x)
     return 10
+
 def bar():
     print(3)
     return 5
