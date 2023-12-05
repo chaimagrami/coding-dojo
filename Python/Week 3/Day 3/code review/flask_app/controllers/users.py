@@ -24,11 +24,12 @@ def create_user():
 
 @app.route('/dashboard')
 def dashboard():
-    if not 'user_id' in session:
+    if "user_id" not in session:
         return redirect('/')
-    user = User.get_by_id({'id':session['user_id']})
-    pokemons=Pokemon.get_pokemon_by_user({'user_id':session['user_id']})
-    return render_template("dashboard.html", user = user,pokemons=pokemons)
+    data = {"id": session["user_id"]}
+    loggedin_user = User.get_user_by_id(data)
+    session["user_email"] = "a@a.com"
+    return render_template("dashboard.html", loggedin_user=loggedin_user)
 
 @app.route('/users/login', methods=['POST'])
 def login():
