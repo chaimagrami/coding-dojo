@@ -28,7 +28,7 @@ def register():
         pw_hash = bcrypt.generate_password_hash(data['password'])
         data["password"] = pw_hash
         User.create(data)
-    return redirect('/')
+    return redirect('/dashboard')
 
 
 @app.route('/login', methods = ['POST'])
